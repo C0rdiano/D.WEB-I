@@ -25,6 +25,36 @@
             margin-left: auto;
             margin-right: auto;
         }
+        .info-curso {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .item-info {
+            text-align: center;
+        }
+        .icone-png {
+            width: 70px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .grade-aulas {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        .grade-aulas th, .grade-aulas td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .grade-aulas th {
+            background-color: #4CAF50;
+            font-weight: bold;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -33,22 +63,22 @@
 <hr class="linha-destaque">
 <div class="info-curso">
     <div class="item-info">
-        <img src="imagens/sol.png.png" alt="Ícone Matutino" class="icone-png">
+        <img src="imagens/sol.png" alt="Ícone Matutino" class="icone-png">
         <p class="texto-info">Matutino</p>
     </div>
     <div class="item-info">
-        <img src="imagens/relogio.png.png" alt="Ícone Horário" class="icone-png">
+        <img src="imagens/relogio.png" alt="Ícone Horário" class="icone-png">
         <p class="texto-info">08h ás 11:30</p>
     </div>
     <div class="item-info">
-        <img src="imagens/aula.png.png" alt="Ícone Modelo" class="icone-png">
+        <img src="imagens/aula.png" alt="Ícone Modelo" class="icone-png">
         <p class="texto-info">Presencial</p>
         </div>
     </div>
     <p class="cordenador"><strong>Coordenador: </strong>Prof. Me. Edson Company Colalto Junior</p>
     <p class="descricao-curso">Entre as diversas disciplinas do curso estão matemática para computação, álgebra linear, redação técnica e ética profissional e patente, metodologias ágeis para gestão de projetos de software e inglês. O currículo inclui ainda conhecimentos mais específicos da área, como lógica de programação e algoritmo, programação para desktop, dispositivos móveis e para web. Experiência do usuário, computação em nuvem, inteligência artificial, segurança da informação, internet das coisas, banco de dados e engenharia de software também integram o programa do curso. O tecnólogo em Desenvolvimento de Software Multiplataforma realiza a coleta e análise estratégica de dados para aprimorar diferentes negócios e tecnologias, além da coordenação de projetos e equipes de desenvolvimento de software. O profissional pode projetar, desenvolver e testar softwares para múltiplas plataformas, aplicações em nuvem e internet das coisas. Entre outras habilidades, cabe ao especialista a apresentação de soluções tecnológicas a partir de conceitos, métodos e tecnologias de linguagens de programação, banco de dados, engenharia de software, segurança da informação e inteligência artificial.</p>
     <h2 class="titulo-tabela">Grade de aula - 1º Semestre</h2>
-    <table class="tabela-grade">
+    <table class="grade-aulas">
         <thead>
             <tr>
                 <th>Horário</th>
